@@ -1,3 +1,9 @@
-const h2 = document.createElement('h2');
-h2.textContent = 'This content was added by Javascript';
-document.querySelector('body').appendChild(h2);
+const mainHeading = document.getElementById('mainHeading')
+mainHeading.addEventListener('click', function () {
+    alert('This is the Heading!');
+})
+
+const brule = document.getElementById("brule")
+brule.addEventListener('click', function() {
+    alert('Stop poking me!');
+})

@@ -1,11 +1,11 @@
 body {
-    background: lightblue;
+    background: rgb(3, 47, 61);
 }
 
-h1 {
+#mainHeading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: rgb(93, 7, 93) ;
+    color: rgb(230, 85, 230) ;
     font-style: oblique ;
 }
 
@@ -16,4 +16,10 @@ img {
 h2 {
     text-align: center;
     color: crimson;
+}
+
+#introPara {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
